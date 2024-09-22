@@ -10,11 +10,11 @@
     <h1>Temperature Converter</h1>
     <form onsubmit="return converter()">
         <section>
-          <label for="temp">Enter the Temperature</label><br />
-          <input type="number" name="temp" id="temp" />
+          <label for="temperatureInput">Enter the Temperature</label><br />
+          <input type="number" name="temperature" id="temperatureInput" />
         </section>
         <section>
-          <select name="temptype" id="temptype">
+          <select name="tempearturetype" id="temperaturetype">
             <option value="celsius">Celsius</option>
             <option value="fahrenheit">Fahrenheit</option>
           </select>
@@ -23,7 +23,7 @@
           <button type="submit" class="button">Convert</button>
         </section>
         <section>
-          <h2>The Converted value is <span id="converted_value"></span></h2>
+          <h2>The Converted value is <span id="convertedvalue"></span></h2>
         </section>
       </form>
       <script src="script.js"></script>
